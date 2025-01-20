@@ -47,4 +47,5 @@ print(f"Mean Squared Error: {mse}")
 
 """31663459326.286755/27751801008.83463 * 100 = %114
 Well, a percentage of %114 is too high as this shows overfitting and we could decide to say a percentage of 10 is our threshold
-Lets try and use another model = Random Forest"""
+Lets try and use another model = Random Forest
+NOTE: THIS DID NOT WORK BECAUSE SVM IS USUALY MEANT FOR CLASSIFICATION AND NOT CONTINOUS PREDICTION (REGRESSION)"""
