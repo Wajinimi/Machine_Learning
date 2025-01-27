@@ -29,8 +29,8 @@ print("Sklearn Intercept:", model.intercept_)
 
 
 """
-Gradient descent is just one way to  solve the optimization problem in linear regression. It is not the model
-itself, but a computational approach to find the model's parameter. It is usually used for larger datasets to avoid
+Gradient descent is just one way to  solve the optimization problem for multipurpose models(you could use it in L2, L1, Linear, Logisitic Regression,
+Nueral Networks ect). It is not the model itself, but a computational approach to find the model's parameter. It is usually used for larger datasets to avoid
 computational complexity due to matrices inversion. In those cases, GD is prefered because it goes about everything 
 step-by-step and avoids inverting large matrices
 Gradient Descent is one method (out of several) to find those parameters by minimizing the loss function. My linear regression 
